@@ -1,0 +1,127 @@
+
+body { 
+	background-color:black;
+	font-family: helvetica;
+}
+img {
+	padding:3px;
+	position: relative;
+}
+
+footer:before, footer:after {
+  content: " ";
+  display: table; 
+}
+
+h1 { 
+color: white; 
+}
+section {
+	margin: 0;
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    overflow-x: auto;
+    padding: 0 0 16px;
+}
+
+.menu { 
+	width: 100%; }
+
+.hartzwart {
+	position:absolute;
+  	right:0;
+  	bottom:6.5em;
+  	margin:1em; 
+  	padding:6em;`
+  	color:white;
+  
+}
+/* Begin rode naar gele hart */ 
+article {
+  display: flex;
+  position:absolute;
+  /* 0 vanaf de rechterkant */
+  right:-96;
+  /* 0 vanaf de onderkant */
+  bottom:7;
+  margin:0; 
+  padding:13em;
+  color:white;
+  background-color:none;
+  list-style-type: none;
+}
+/*
+.wish1 {
+    display: flex;
+    position: absolute;
+    left: 205px;
+    bottom: -260px;
+    margin: -14px;
+    padding: 0em;
+    color: white;
+    background-color: none;
+    list-style-type: none;
+}
+*/
+main section {
+  padding:1em 0em;
+  display:grid;
+  grid-gap:1em;
+  background-color:none;
+}
+
+@media (min-width:24em) {
+   main section {
+     padding:1.5em;
+     grid-template-columns:repeat(auto-fit, minmax(18em, 1fr));
+     grid-gap:1.5em;
+     background-color:none;
+  }
+}
+
+
+/* Einde rode naar gele hart */ 
+/*
+.container {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.container .icon {
+	width: 200px;
+}
+
+.container .icon path {
+	fill: transparent;
+	stroke-width:10;
+	stroke: red;
+
+}
+
+.container .icon .heart path {
+	stroke-dasharray: 1560;
+	stroke-dashoffset: 1560;
+}
+
+.container .icon .heart:hover path {
+	animation: animatie-heart 2s linear forwards
+}
+@keyframes animate-heart 
+{ 
+	0%
+	{ stroke-dashoffset:0;
+	 }
+	40%
+	{
+		stroke-dashoffset: 1560;
+	} 
+	80%
+	{
+		stroke-dashoffset: 3120;
+	} 
+ }
