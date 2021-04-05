@@ -1,0 +1,57 @@
+body {
+background-color:black;
+font-family:sans-serif;
+color:white;
+
+} 
+
+img {
+  width: 100%;
+  padding: 1px;
+  height: 100%;
+}
+
+#result {
+ 	display: inline-block;
+}
+
+article {
+	position: relative;
+}
+
+.plaatje {
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0 0 1rem 0;
+}
+article h2 p {
+   position: relative;
+  top: 20px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  float: right;
+   position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  counter-increment: item;
+}
+
+body {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Style buttons */
+.buttonload {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px /* Set a font size */
+}
